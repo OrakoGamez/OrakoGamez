@@ -1,61 +1,24 @@
-# OrakoGamez
+# Hi, I'm OrakoGamez 👋
 
-### Developer • AI & Automation • 3D
+### Beginner Developer | C++ | Blender | Unreal Engine 5
 
-I build software, experiment with AI, and turn ideas into practical projects.
+I'm currently learning programming and game development, while sharing my journey through YouTube.
 
-- 🤖 Exploring AI assistants, automation, and intelligent systems
-- 🧠 Learning and building with modern programming tools
-- 🎨 Creating 3D projects with Blender
-- 🚀 Focused on building useful projects and improving every day
+## 🌱 What I'm Learning
 
----
+- 💻 **C++** — learning programming and building small projects
+- 🎨 **Blender** — learning 3D modelling and creating assets
+- 🎮 **Unreal Engine 5** — learning game development
+- 🎥 **YouTube** — documenting projects, experiments, and my learning journey
 
-## Tech & Tools
+## 🚀 My Goal
 
-**Languages & Development**
+To keep learning, build cool projects, and eventually create my own games and software.
 
-`Python` · `JavaScript` · `HTML` · `CSS` · `Git` · `GitHub`
-
-**AI & Automation**
-
-`AI Agents` · `LLMs` · `Automation` · `APIs`
-
-**3D & Creative**
-
-`Blender` · `3D Modeling`
-
----
-
-## Featured Projects
-
-### 🤖 AI & Automation
-Building intelligent tools that can understand natural language, make decisions, and interact with software.
-
-### 🎨 Blender Projects
-A collection of 3D experiments, models, and creative work.
-
----
-
-## Current Focus
-
-```text
-AI Engineering  ███████████████░░░  Learning & Building
-Automation      ██████████████░░░░  Experimenting
-Programming     ███████████████░░░  Improving
-3D / Blender    ███████████░░░░░░░  Creating
-```
-
----
-
-## Let's Build
-
-I'm interested in **AI, software development, automation, intelligent agents, and creative technology**.
-
-> Build. Learn. Improve. Repeat.
+> Learning one project at a time.
 
 ---
 
 <p align="center">
-  <sub>Designed and built by OrakoGamez</sub>
+  Thanks for visiting my profile! 👋
 </p>
