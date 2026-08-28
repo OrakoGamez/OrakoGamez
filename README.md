@@ -147,12 +147,15 @@ As I learn, my repositories and contribution history will grow with me.
 
 ## 🌐 Connect
 
-<p>
+<p align="center">
+  <a href="https://www.youtube.com/@Orako-Gamez">
+    <img src="./assets/youtube-button.svg" width="360" alt="Watch Orako Gamez on YouTube">
+  </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/OrakoGamez">
     <img src="https://img.shields.io/badge/GitHub-OrakoGamez-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://www.youtube.com/@Orako-Gamez">
-    <img src="https://img.shields.io/badge/YouTube-Orako--Gamez-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube">
   </a>
 </p>
 
