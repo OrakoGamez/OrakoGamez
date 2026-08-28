@@ -1,0 +1,17 @@
+<svg width="360" height="72" viewBox="0 0 360 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">YouTube button for Orako Gamez</title>
+<desc id="desc">A red YouTube button with a white play icon and the text Watch on YouTube.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ff1717"/>
+    <stop offset="1" stop-color="#cc0000"/>
+  </linearGradient>
+</defs>
+<rect x="1" y="1" width="358" height="70" rx="14" fill="#0d1117" stroke="#555b64"/>
+<rect x="7" y="7" width="346" height="58" rx="11" fill="url(#bg)"/>
+<g transform="translate(28 19)">
+  <path fill="#fff" d="M0 7.2C0 3.2 3.2 0 7.2 0h21.6C32.8 0 36 3.2 36 7.2v14.6c0 4-3.2 7.2-7.2 7.2H7.2C3.2 29 0 25.8 0 21.8V7.2Z"/>
+  <path fill="#cc0000" d="m14.5 8.2 10.8 6.3-10.8 6.3V8.2Z"/>
+</g>
+<text x="82" y="44" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Watch on YouTube</text>
+</svg>
