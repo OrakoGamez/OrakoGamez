@@ -9,48 +9,90 @@ Learning by building small things, experimenting, and improving one project at a
 </div>
 
 <p align="center">
-  <img src="./assets/developer-dashboard.svg" alt="Developer learning dashboard" width="900">
-</p>
-
-## 🖥️ `orako@learning-lab`
-
-<p align="center">
   <img src="./assets/terminal.svg" alt="Developer terminal" width="900">
 </p>
 
 ## 🚀 Currently Learning
 
+<!--
+CARD SYSTEM
+- Keep the card layout as HTML, not an image.
+- Progress bars are separate SVG components in ./assets/progress/.
+- When a future repository exists, wrap the complete card contents in <a href="REAL_REPOSITORY_URL">...</a>.
+- Do not add placeholder/broken URLs to the rendered README.
+-->
+
 <table>
 <tr>
-<td align="center" width="50%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="42" height="42" alt="C++"><br><br>
-<b>C++</b><br>
-<sub>Beginner · Programming fundamentals</sub>
+<td width="50%" valign="top" align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++">
+
+### C++
+
+**Beginner · Programming fundamentals**
+
+**40%**
+
+<img src="./assets/progress/cpp.svg" width="260" height="10" alt="C++ learning progress: 40 percent">
+
+<!-- FUTURE C++ REPOSITORY: replace this comment with a real repository link when it exists. -->
+
 </td>
-<td align="center" width="50%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" width="42" height="42" alt="Unreal Engine"><br><br>
-<b>Unreal Engine 5</b><br>
-<sub>Beginner · Game development</sub>
+<td width="50%" valign="top" align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" width="48" height="48" alt="Unreal Engine 5">
+
+### Unreal Engine 5
+
+**Beginner · Game development**
+
+**30%**
+
+<img src="./assets/progress/unreal.svg" width="260" height="10" alt="Unreal Engine 5 learning progress: 30 percent">
+
+<!-- FUTURE UNREAL ENGINE REPOSITORY: replace this comment with a real repository link when it exists. -->
+
 </td>
 </tr>
 <tr>
-<td align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" width="42" height="42" alt="Blender"><br><br>
-<b>Blender</b><br>
-<sub>Beginner · 3D and visual work</sub>
+<td width="50%" valign="top" align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" width="48" height="48" alt="Blender">
+
+### Blender
+
+**Beginner · 3D and visual work**
+
+**30%**
+
+<img src="./assets/progress/blender.svg" width="260" height="10" alt="Blender learning progress: 30 percent">
+
+<!-- NOTE: Blender_Projects exists but is currently private, so no public link is exposed here. -->
+
 </td>
-<td align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/youtube/youtube-original.svg" width="42" height="42" alt="YouTube"><br><br>
-<b>Content Creation</b><br>
-<sub>Learning · YouTube</sub>
+<td width="50%" valign="top" align="center">
+
+<a href="https://www.youtube.com/@Orako-Gamez">
+<img src="https://cdn.simpleicons.org/youtube/FF0000" width="48" height="48" alt="YouTube">
+
+### Content Creation
+
+**Learning · YouTube**
+
+**30%**
+
+<img src="./assets/progress/content-creation.svg" width="260" height="10" alt="Content creation learning progress: 30 percent">
+</a>
+
 </td>
 </tr>
 </table>
 
+> Progress percentages are personal learning estimates, not professional proficiency.
+
 <details>
 <summary>🎯 Learning Progress</summary>
-
-> These are personal estimates of where I am in my learning journey — not measures of professional ability.
 
 | Skill | Level | Progress |
 |---|---|---|
@@ -108,7 +150,7 @@ My Blender practice repository, where I'm learning 3D and experimenting with vis
 
 `Blender` · 🟡 Learning / Building
 
-The repository is currently private, so it isn't linked as a public portfolio project yet.
+The repository is currently private, so it isn't exposed as a public portfolio link yet.
 
 ### 🏆 First Blender VFX Project
 
@@ -135,6 +177,9 @@ As I learn, my repositories and contribution history will grow with me.
 <p>
   <a href="https://github.com/OrakoGamez">
     <img src="https://img.shields.io/badge/GitHub-OrakoGamez-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.youtube.com/@Orako-Gamez">
+    <img src="https://img.shields.io/badge/YouTube-Orako--Gamez-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube">
   </a>
 </p>
 
