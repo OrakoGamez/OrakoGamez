@@ -25,66 +25,39 @@ CARD SYSTEM
 <table>
 <tr>
 <td width="50%" valign="top" align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++">
-
-### C++
-
-**Beginner · Programming fundamentals**
-
-**40%**
-
-<img src="./assets/progress/cpp.svg" width="260" height="10" alt="C++ learning progress: 40 percent">
-
-<!-- FUTURE C++ REPOSITORY: replace this comment with a real repository link when it exists. -->
-
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++"></p>
+<p><strong>C++</strong></p>
+<p><sub>Beginner · Programming fundamentals</sub></p>
+<p><strong>40%</strong></p>
+<p><img src="./assets/progress/cpp.svg" width="260" height="10" alt="C++ learning progress: 40 percent"></p>
+<!-- FUTURE C++ REPOSITORY: add the real URL here when the repository exists. -->
 </td>
 <td width="50%" valign="top" align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" width="48" height="48" alt="Unreal Engine 5">
-
-### Unreal Engine 5
-
-**Beginner · Game development**
-
-**30%**
-
-<img src="./assets/progress/unreal.svg" width="260" height="10" alt="Unreal Engine 5 learning progress: 30 percent">
-
-<!-- FUTURE UNREAL ENGINE REPOSITORY: replace this comment with a real repository link when it exists. -->
-
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" width="48" height="48" alt="Unreal Engine 5"></p>
+<p><strong>Unreal Engine 5</strong></p>
+<p><sub>Beginner · Game development</sub></p>
+<p><strong>30%</strong></p>
+<p><img src="./assets/progress/unreal.svg" width="260" height="10" alt="Unreal Engine 5 learning progress: 30 percent"></p>
+<!-- FUTURE UNREAL ENGINE REPOSITORY: add the real URL here when the repository exists. -->
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" width="48" height="48" alt="Blender">
-
-### Blender
-
-**Beginner · 3D and visual work**
-
-**30%**
-
-<img src="./assets/progress/blender.svg" width="260" height="10" alt="Blender learning progress: 30 percent">
-
-<!-- NOTE: Blender_Projects exists but is currently private, so no public link is exposed here. -->
-
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" width="48" height="48" alt="Blender"></p>
+<p><strong>Blender</strong></p>
+<p><sub>Beginner · 3D and visual work</sub></p>
+<p><strong>30%</strong></p>
+<p><img src="./assets/progress/blender.svg" width="260" height="10" alt="Blender learning progress: 30 percent"></p>
+<!-- NOTE: Blender_Projects exists but is private, so no public link is exposed here. -->
 </td>
 <td width="50%" valign="top" align="center">
-
 <a href="https://www.youtube.com/@Orako-Gamez">
-<img src="https://cdn.simpleicons.org/youtube/FF0000" width="48" height="48" alt="YouTube">
-
-### Content Creation
-
-**Learning · YouTube**
-
-**30%**
-
-<img src="./assets/progress/content-creation.svg" width="260" height="10" alt="Content creation learning progress: 30 percent">
+<p><img src="https://cdn.simpleicons.org/youtube/FF0000" width="48" height="48" alt="YouTube"></p>
+<p><strong>Content Creation</strong></p>
+<p><sub>Learning · YouTube</sub></p>
+<p><strong>30%</strong></p>
+<p><img src="./assets/progress/content-creation.svg" width="260" height="10" alt="Content creation learning progress: 30 percent"></p>
 </a>
-
 </td>
 </tr>
 </table>
