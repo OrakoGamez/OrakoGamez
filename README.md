@@ -1,89 +1,88 @@
+<div align="center">
+
 # ORAKO GAMEZ
 
-**Beginner Developer • C++ Learner • Game Development • Content Creator**
+**Beginner Developer · C++ Learner · Game Development · Content Creator**
 
-I'm a beginner developer learning by building, experimenting, and improving.
+Learning by building small things, experimenting, and improving one project at a time.
 
-Currently learning:
-- 💻 C++
-- 🎮 Unreal Engine 5
-- 🎨 Blender
-- 🕹️ Game Development
-- 📺 YouTube & Content Creation
+</div>
 
----
+<p align="center">
+  <img src="./assets/developer-dashboard.svg" alt="Developer learning dashboard" width="900">
+</p>
+
+## 🖥️ `orako@learning-lab`
+
+<p align="center">
+  <img src="./assets/terminal.svg" alt="Developer terminal" width="900">
+</p>
 
 ## 🚀 Currently Learning
 
 <table>
 <tr>
-<td align="center" width="25%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++"><br>
+<td align="center" width="50%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="42" height="42" alt="C++"><br><br>
 <b>C++</b><br>
-<sub>Beginner</sub><br>
-<code>████░░░░░░ 40%</code>
+<sub>Beginner · Programming fundamentals</sub>
 </td>
-<td align="center" width="25%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" width="48" height="48" alt="Unreal Engine"><br>
+<td align="center" width="50%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" width="42" height="42" alt="Unreal Engine"><br><br>
 <b>Unreal Engine 5</b><br>
-<sub>Beginner</sub><br>
-<code>███░░░░░░░ 30%</code>
+<sub>Beginner · Game development</sub>
 </td>
-<td align="center" width="25%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" width="48" height="48" alt="Blender"><br>
+</tr>
+<tr>
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" width="42" height="42" alt="Blender"><br><br>
 <b>Blender</b><br>
-<sub>Beginner</sub><br>
-<code>███░░░░░░░ 30%</code>
+<sub>Beginner · 3D and visual work</sub>
 </td>
-<td align="center" width="25%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/youtube/youtube-original.svg" width="48" height="48" alt="YouTube"><br>
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/youtube/youtube-original.svg" width="42" height="42" alt="YouTube"><br><br>
 <b>Content Creation</b><br>
-<sub>Learning</sub><br>
-<code>███░░░░░░░ 30%</code>
+<sub>Learning · YouTube</sub>
 </td>
 </tr>
 </table>
 
-> Progress bars show my personal learning progress, not professional proficiency.
+<details>
+<summary>🎯 Learning Progress</summary>
+
+> These are personal estimates of where I am in my learning journey — not measures of professional ability.
+
+| Skill | Level | Progress |
+|---|---|---|
+| C++ | 🟢 Beginner | `████░░░░░░ 40%` |
+| Git & GitHub | 🟢 Beginner | `████░░░░░░ 40%` |
+| Unreal Engine 5 | 🟢 Beginner | `███░░░░░░░ 30%` |
+| Blender | 🟢 Beginner | `███░░░░░░░ 30%` |
+| Game Development | 🟢 Beginner | `███░░░░░░░ 30%` |
+| Content Creation | 🟡 Learning | `███░░░░░░░ 30%` |
+
+</details>
 
 ## 🛠️ What I'm Working On
 
-- 🎮 Learning C++ for game development
-- 🧩 Learning Unreal Engine 5
-- 🎨 Learning Blender and 3D
-- 💻 Building small programming projects
-- 📺 Learning YouTube and content creation
-- 📚 Improving programming fundamentals
+<table>
+<tr><td>🎮</td><td>Learning C++ for game development</td></tr>
+<tr><td>🧩</td><td>Learning Unreal Engine 5</td></tr>
+<tr><td>🎨</td><td>Learning Blender and 3D</td></tr>
+<tr><td>💻</td><td>Building small programming projects</td></tr>
+<tr><td>📺</td><td>Learning YouTube and content creation</td></tr>
+</table>
 
----
+## 🎮 Learning Quest
 
-## ⭐ Featured Project
-
-### 🎨 Blender Projects
-
-A collection of my Blender experiments and projects as I learn 3D and visual effects.
-
-**Technology:** `Blender`  
-**Status:** 🟡 Learning / Building
-
-urlView Blender Projectshttps://github.com/OrakoGamez/Blender_Projects
-
----
-
-## 📊 Skills
-
-| Technology | Level | Learning Progress |
-|---|---|---|
-| C++ | Beginner | `████░░░░░░ 40%` |
-| Git & GitHub | Beginner | `████░░░░░░ 40%` |
-| Unreal Engine 5 | Beginner | `███░░░░░░░ 30%` |
-| Blender | Beginner | `███░░░░░░░ 30%` |
-| Game Development | Beginner | `███░░░░░░░ 30%` |
-| Content Creation | Beginner | `███░░░░░░░ 30%` |
-
----
-
-## 🗺️ My Learning Roadmap
+<table>
+<tr>
+<td width="25%" align="center">🟢<br><b>Fundamentals</b><br><sub>Learning</sub></td>
+<td width="25%" align="center">🟡<br><b>C++</b><br><sub>In Progress</sub></td>
+<td width="25%" align="center">⚪<br><b>Game Dev</b><br><sub>Next</sub></td>
+<td width="25%" align="center">⚪<br><b>Projects</b><br><sub>Next</sub></td>
+</tr>
+</table>
 
 ```text
 Programming Fundamentals
@@ -101,31 +100,46 @@ Programming Fundamentals
     Share & Improve
 ```
 
+## ⭐ Projects & Milestones
+
+### 🎨 Blender Projects
+
+My Blender practice repository, where I'm learning 3D and experimenting with visual effects.
+
+`Blender` · 🟡 Learning / Building
+
+The repository is currently private, so it isn't linked as a public portfolio project yet.
+
+### 🏆 First Blender VFX Project
+
+**Milestone unlocked:** started my first Blender VFX project and began documenting my work through Git.
+
 ## 📈 My Coding Journey
 
 > Every project is another step forward.
 
-My GitHub contribution graph is shown automatically on my profile as I continue learning and building.
+As I learn, my repositories and contribution history will grow with me.
 
----
+## 🔨 Current Status
 
-## 🔨 Currently Building
+| Area | Status |
+|---|---|
+| 💻 C++ | 🟢 Learning |
+| 🎮 Unreal Engine 5 | 🟡 Learning |
+| 🎨 Blender | 🟡 Learning |
+| 🧪 Projects | 🟡 Building |
+| 📺 YouTube | 🔵 Growing |
 
-🟢 **Learning C++**  
-🟡 **Learning Unreal Engine 5**  
-🟡 **Learning Blender**  
-🟡 **Building Projects**  
-🔵 **Growing YouTube Channel**
+## 🌐 Connect
 
----
-
-## 🌐 Connect With Me
-
-- 📺 YouTube — *coming soon / add link when ready*
-- 💼 LinkedIn — *add link when ready*
+<p>
+  <a href="https://github.com/OrakoGamez">
+    <img src="https://img.shields.io/badge/GitHub-OrakoGamez-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
 
 ---
 
 <p align="center">
-  <sub>Learning • Building • Improving</sub>
+  <sub>Learning · Building · Improving</sub>
 </p>
