@@ -8,26 +8,14 @@ README = ROOT / "README.md"
 PROGRESS_DIR = ROOT / "assets" / "progress"
 
 SKILLS = {
-    "cpp": ("C++", "Programming fundamentals", "cpp.svg"),
-    "unreal_engine": ("Unreal Engine 5", "Game development", "unreal.svg"),
-    "blender": ("Blender", "3D and visual work", "blender.svg"),
-    "content_creation": ("Content Creation", "YouTube", "content-creation.svg"),
+    "cpp": ("C++", "Programming fundamentals", "cpp.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"),
+    "unreal_engine": ("Unreal Engine 5", "Game development", "unreal.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg"),
+    "blender": ("Blender", "3D and visual work", "blender.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg"),
+    "content_creation": ("Content Creation", "YouTube", "content-creation.svg", "https://cdn.simpleicons.org/youtube/FF0000"),
 }
 
-LEVELS = [
-    (20, "🌱 Starting"),
-    (40, "📚 Beginner"),
-    (60, "🔧 Developing"),
-    (80, "🚀 Intermediate"),
-    (100, "🏆 Advanced"),
-]
-
-COLORS = {
-    "cpp": "#56B4F8",
-    "unreal_engine": "#A970FF",
-    "blender": "#FF8A2A",
-    "content_creation": "#FF4F4F",
-}
+LEVELS = [(20, "🌱 Starting"), (40, "📚 Beginner"), (60, "🔧 Developing"), (80, "🚀 Intermediate"), (100, "🏆 Advanced")]
+COLORS = {"cpp": "#56B4F8", "unreal_engine": "#A970FF", "blender": "#FF8A2A", "content_creation": "#FF4F4F"}
 
 
 def level(value):
@@ -61,21 +49,21 @@ def replace_block(text, start, end, replacement):
 data = json.loads(CONFIG.read_text(encoding="utf-8"))
 validate(data)
 
-# Generate the four visual progress-bar components from the central config.
 PROGRESS_DIR.mkdir(parents=True, exist_ok=True)
 for key, value in data.items():
     (PROGRESS_DIR / SKILLS[key][2]).write_text(progress_svg(key, value), encoding="utf-8")
 
 cards = []
-for key, (name, subtitle, svg) in SKILLS.items():
+for key, (name, subtitle, svg, icon_url) in SKILLS.items():
     value = data[key]
-    cards.append(f'''<td width="50%" valign="top" align="center">
-<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/{'cplusplus/cplusplus-original' if key == 'cpp' else 'unrealengine/unrealengine-original' if key == 'unreal_engine' else 'blender/blender-original' if key == 'blender' else 'youtube/youtube-original'}.svg" width="48" height="48" alt="{name}"></p>
+    inner = f'''<p><img src="{icon_url}" width="48" height="48" alt="{name}"></p>
 <p><strong>{name}</strong></p>
 <p><sub>{level(value)} · {subtitle}</sub></p>
 <p><strong>{value}%</strong></p>
-<p><img src="./assets/progress/{svg}" width="260" height="10" alt="{name} learning progress: {value} percent"></p>
-</td>''')
+<p><img src="./assets/progress/{svg}" width="260" height="10" alt="{name} learning progress: {value} percent"></p>'''
+    if key == "content_creation":
+        inner = f'<a href="https://www.youtube.com/@Orako-Gamez">\n{inner}\n</a>'
+    cards.append(f'<td width="50%" valign="top" align="center">\n{inner}\n</td>')
 
 cards_block = f'''<table>
 <tr>
@@ -90,11 +78,7 @@ cards_block = f'''<table>
 
 > Progress percentages are personal learning estimates, not professional proficiency.'''
 
-rows = "\n".join(
-    f'| {SKILLS[key][0]} | {level(data[key])} | `{"█" * round(data[key] / 10)}{"░" * (10 - round(data[key] / 10))} {data[key]}%` |'
-    for key in SKILLS
-)
-
+rows = "\n".join(f'| {SKILLS[key][0]} | {level(data[key])} | `{"█" * round(data[key] / 10)}{"░" * (10 - round(data[key] / 10))} {data[key]}%` |' for key in SKILLS)
 table_block = f'''<details>
 <summary>🎯 Learning Progress</summary>
 
@@ -104,7 +88,18 @@ table_block = f'''<details>
 
 </details>'''
 
+control_block = f'''<!-- ================================================= -->
+<!-- 🎛️ SKILL PROGRESS CONTROL PANEL                   -->
+<!-- EDIT THE NUMBERS IN config/skills.json ONLY.       -->
+<!-- ================================================= -->
+C++: {data["cpp"]}%
+Unreal Engine 5: {data["unreal_engine"]}%
+Blender: {data["blender"]}%
+Content Creation: {data["content_creation"]}%
+<!-- ================================================= -->'''
+
 text = README.read_text(encoding="utf-8")
+text = replace_block(text, "<!-- SKILL-CONTROL-START -->", "<!-- SKILL-CONTROL-END -->", control_block)
 text = replace_block(text, "<!-- SKILL-CARDS-START -->", "<!-- SKILL-CARDS-END -->", cards_block)
 text = replace_block(text, "<!-- SKILL-TABLE-START -->", "<!-- SKILL-TABLE-END -->", table_block)
 README.write_text(text, encoding="utf-8")
